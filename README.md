@@ -1,16 +1,11 @@
 # f_todo_app_database_template
 
-A new Flutter project.
+Work on TodoLocalDataSourceHive
 
-## Getting Started
+Widget and integration testing included:   
 
-This project is a starting point for a Flutter application.
+To have in for for the integration test:   
+- When testing sqflite the key should be todo1
+- When testing hive the key should be todo0
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://github.com/augustosalazar/f_todo_app_database/assets/4458129/fdca689c-e186-41e5-b6d0-52543f78b1b7" width="300" />
