@@ -1,6 +1,5 @@
 import 'package:get/get.dart';
 import 'package:loggy/loggy.dart';
-import '../../data/mocks/mock_todo.dart';
 import '../../domain/entities/todo.dart';
 import '../../domain/use_case/todo_use_case.dart';
 

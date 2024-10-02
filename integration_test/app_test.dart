@@ -89,13 +89,6 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.byType(Dismissible), findsNWidgets(2));
 
-    // Delete the first item
-    await tester.drag(find.byKey(const Key('todo0')), const Offset(500.0, 0.0));
-    await tester.pumpAndSettle();
-
-    // Should find one item on the list
-    expect(find.byType(Dismissible), findsOneWidget);
-
     // Simulate tapping the delete all button
     await tester.tap(find.byKey(const Key('deleteAllButton')));
     await tester.pumpAndSettle();

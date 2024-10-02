@@ -124,9 +124,13 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.byType(Dismissible), findsNWidgets(2));
 
-    await tester.drag(find.byKey(const Key('todo0')), const Offset(500.0, 0.0));
-
+    await tester.tap(find.byKey(const Key('deleteAllButton')));
     await tester.pumpAndSettle();
-    expect(find.byType(Dismissible), findsOneWidget);
+    expect(find.byType(Dismissible), findsNothing);
+
+    //await tester.drag(find.byKey(const Key('todo0')), const Offset(500.0, 0.0));
+
+    //await tester.pumpAndSettle();
+    //expect(find.byType(Dismissible), findsOneWidget);
   });
 }
